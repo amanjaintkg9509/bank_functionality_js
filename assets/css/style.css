@@ -1,0 +1,20 @@
+button{
+    width: 100%;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+}
+
+.p-b-t{ 
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+
+.f-r-space{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

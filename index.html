@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apna Bank</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h2>Apna Bank</h2>
+    </header>
+    <section>
+      <div>
+        <h3>Total Available A/C Balance: <span id="avl-bal"></span></h3>
+      </div>
+      <div>
+        <div class="p-b-t f-r-space">
+          <label>Interest rate(%):</label>
+          <input placeholder="Enter Interest Rate" id="interest" value="2.5" />
+          <label>Amount:</label>
+          <input placeholder="Enter Amount" id="amount" />
+          <select id="action">
+            <option>Select Action</option>
+            <option>Credit</option>
+            <option>Debit</option>
+            <option>Interest</option>
+          </select>
+        </div>
+
+        <div>
+          <button onclick="submit()">Submit</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+
+<script src="./assets/js/script.js"></script>

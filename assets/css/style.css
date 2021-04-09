@@ -1,8 +1,14 @@
 button {
-  width: 100%;
+  padding: 5px;
+  background: #000000d4;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  width: 50vh;
+  height: 3vw;
 }
 
-section {
+.container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,7 +16,26 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+input,
+select {
+  border: none;
+  border-radius: 4px;
+  height: 4vh;
+  padding-left: 2vh;
+}
+
+section {
+  position: relative;
+  width: 750px;
+  height: 100%;
+  padding: 10px;
+  border: solid;
+  background: #f6d9d9;
 }
 
 .p-b-t {
@@ -29,5 +54,31 @@ section {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.f-r-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,11 +1,34 @@
 button {
-  width: 100%;
+  padding: 5px;
+  background: #000000d4;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  width: 50vh;
+  height: 3vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input,
+select {
+  border: none;
+  border-radius: 4px;
+  height: 4vh;
+  padding-left: 2vh;
 }
 
 section {
-  display: flex;
-  flex-direction: column;
-  width: 100vh;
+  position: relative;
+  width: 750px;
+  height: 100%;
+  padding: 10px;
+  border: solid;
+  background: #f6d9d9;
 }
 
 .p-b-t {
@@ -17,4 +40,16 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.f-r-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
